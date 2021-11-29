@@ -1,0 +1,206 @@
+body{
+  background-color: #091836;
+  color:#fff;
+  font-family: 'Montserrat';
+}
+.ring{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 4px solid transparent;
+  border-top: 4px solid #FF0075;
+  animation: animate 4s linear infinite;
+}
+@keyframes animate {
+  0%{
+    transform:rotate(0deg);
+  }
+  100%{
+    transform:rotate(360deg);
+  }
+}
+.ring::before{
+  content: '';
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  border-radius:25%;
+  width:15px;
+  height: 15px;
+  background:#FF0075;
+  box-shadow: 0 0 0 5px #FF007533, 0 0 0 10px #FF007522, 0 0 0 20px #FF007511;
+}
+
+#r1{
+  border-top: 4px solid #2F86A6;
+}
+#r1::before{
+  background:#2F86A6;
+  box-shadow: 0 0 0 5px #2F86A633, 0 0 0 10px #2F86A622, 0 0 0 20px #2F86A611;
+}
+
+#r2{
+  border-top: 4px solid #FFF323;
+}
+#r2::before{
+  background:#FFF323;
+  box-shadow: 0 0 0 5px #FFF32333, 0 0 0 10px #FFF32322, 0 0 0 20px #FFF32311;
+}
+
+.header{
+  text-align: center;
+  margin-top: -15%;
+}
+.header h1{
+  color: gold;
+  font-size: 6rem;
+  font-family: 'Italianno', cursive;
+}
+.header p{
+  font-size: 1.5rem;
+}
+span{
+  font-size: 2rem;
+  font-family: "Italianno";
+}
+.s1{
+  color: #9AE66E;
+}
+.s2{
+  color:#BFA2DB;
+}
+.intro{
+  padding-top: 2rem;
+}
+.intro p{
+  color: #EAC8AF;
+  font-size: 1.75rem;
+  font-style: italic;
+  font-family: "Ubuntu";
+}
+.intro span{
+  color: #FFFEA9;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.middle1{
+  background-color:#38A3A5 ;
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.middle1 h3{
+  color: #035397;
+  font-size:5rem;
+  font-family: 'Comforter Brush', cursive;
+}
+.middle1 img{
+  padding-top: 2rem;
+  width:75%;
+  padding-bottom: 2rem;
+}
+.middle1 p{
+  color:#A2D2FF;
+  font-size: 1.5rem;
+  font-family: "Ubuntu"
+}
+
+.middle2{
+  background-color:#084177;
+  padding: 7% 15%;
+  text-align: center;
+  color: #fff;
+}
+
+.middle2 h3{
+  color: #D4AC2B;
+  font-size:3rem;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 5%;
+}
+.card{
+  padding: 10% 10%;
+}
+.card h4{
+  color: purple;
+}
+.middle2 img{
+  width: 50%;
+}
+.card p{
+  font-size: 0.75rem;
+  color: green;
+}
+
+.middle3{
+  background-color: #C9E4C5;
+  padding: 7% 15%;
+  align-items: center;
+}
+.middle3 h3{
+  color: purple;
+  font-size:5rem;
+  font-family: "Italianno";
+  padding-bottom: 5%;
+  text-align: center;
+}
+.middle3 p{
+  color: #A45D5D;
+  padding-left: 15%;
+  font-size: 1rem;
+}
+
+.footer{
+  padding: 5% 15%;
+  background-color: #fff;
+  color: #091836;
+  text-align: center;
+}
+.footer h3{
+  font-size:3rem;
+  font-family: "Ubuntu"
+}
+.bookAll{
+  width: 100%;
+}
+
+.other{
+  text-align: center;
+  padding-bottom: 1%;
+  width: 15%;
+  margin: 15px 15px 40px;
+}
+.GetInTouch{
+  background-color: #111;
+  text-align: center;
+}
+.GetInTouch h4{
+  color: #fafafa;
+  font-size:3rem;
+  font-family: 'Comforter Brush', cursive;
+}
+
+.icon1{
+  font-size: 72px;
+  margin-top: 1rem;
+  color: red;
+}
+.icon1:hover{
+  color:#E02401;
+}
+.icon2{
+  font-size: 72px;
+  margin-top: 1rem;
+  color: #C32BAD;
+}
+.icon2:hover{
+  color: #8E05C2;
+}
+.icon3{
+  font-size: 72px;
+  margin-top: 1rem;
+  color: #3DB2FF;
+}
+.icon3:hover{
+  color: #5C7AEA;
+}

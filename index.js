@@ -1,0 +1,15 @@
+$(".book1").on("click",function(){
+  $(".book1").slideUp();
+});
+$(".book2").on("click",function(){
+  $(".book2").slideUp();
+});
+$(".book3").on("click",function(){
+  $(".book3").slideUp();
+});
+$(".book4").on("click",function(){
+  $(".book4").slideUp();
+});
+$(".book5").on("click",function(){
+  $(".book5").slideUp();
+});
