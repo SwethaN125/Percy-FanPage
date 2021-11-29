@@ -1,15 +1,15 @@
 $(".book1").on("click",function(){
-  $(".book1").slideUp();
+  $(".book1").slideUp().slideDown();
 });
 $(".book2").on("click",function(){
-  $(".book2").slideUp();
+  $(".book2").slideUp().slideDown();
 });
 $(".book3").on("click",function(){
-  $(".book3").slideUp();
+  $(".book3").slideUp().slideDown();
 });
 $(".book4").on("click",function(){
-  $(".book4").slideUp();
+  $(".book4").slideUp().slideDown();
 });
 $(".book5").on("click",function(){
-  $(".book5").slideUp();
+  $(".book5").slideUp().slideDown();
 });
