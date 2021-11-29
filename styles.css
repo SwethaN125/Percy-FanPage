@@ -160,14 +160,11 @@ span{
   font-size:3rem;
   font-family: "Ubuntu"
 }
-.bookAll{
-  width: 100%;
-}
 
 .other{
   text-align: center;
   padding-bottom: 1%;
-  width: 15%;
+  width: 25%;
   margin: 15px 15px 40px;
 }
 .GetInTouch{
