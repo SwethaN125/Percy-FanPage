@@ -203,3 +203,8 @@ span{
 .icon3:hover{
   color: #5C7AEA;
 }
+footer{
+  background:black;
+  color:#fafafa;
+  text-align:centre;
+}
